@@ -1,0 +1,9 @@
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\MovingCat(KuotM)\MovingCat(KuotM)\obj\Debug\MovingCat(KuotM).csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\MovingCat(KuotM)\MovingCat(KuotM)\obj\Debug\MovingCat_KuotM_.frmMovingCat.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\MovingCat(KuotM)\MovingCat(KuotM)\obj\Debug\MovingCat_KuotM_.Properties.Resources.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\MovingCat(KuotM)\MovingCat(KuotM)\obj\Debug\MovingCat(KuotM).csproj.GenerateResource.Cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\MovingCat(KuotM)\MovingCat(KuotM)\bin\Debug\MovingCat(KuotM).exe.config
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\MovingCat(KuotM)\MovingCat(KuotM)\bin\Debug\MovingCat(KuotM).exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\MovingCat(KuotM)\MovingCat(KuotM)\bin\Debug\MovingCat(KuotM).pdb
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\MovingCat(KuotM)\MovingCat(KuotM)\obj\Debug\MovingCat(KuotM).exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\MovingCat(KuotM)\MovingCat(KuotM)\obj\Debug\MovingCat(KuotM).pdb

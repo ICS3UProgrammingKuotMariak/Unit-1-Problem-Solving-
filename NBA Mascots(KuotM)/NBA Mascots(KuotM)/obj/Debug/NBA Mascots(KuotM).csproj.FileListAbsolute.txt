@@ -1,0 +1,9 @@
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\NBA Mascots(KuotM)\NBA Mascots(KuotM)\bin\Debug\NBA Mascots(KuotM).exe.config
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\NBA Mascots(KuotM)\NBA Mascots(KuotM)\bin\Debug\NBA Mascots(KuotM).exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\NBA Mascots(KuotM)\NBA Mascots(KuotM)\bin\Debug\NBA Mascots(KuotM).pdb
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\NBA Mascots(KuotM)\NBA Mascots(KuotM)\obj\Debug\NBA Mascots(KuotM).csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\NBA Mascots(KuotM)\NBA Mascots(KuotM)\obj\Debug\NBA_Mascots_KuotM_.frmNBAMascot.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\NBA Mascots(KuotM)\NBA Mascots(KuotM)\obj\Debug\NBA_Mascots_KuotM_.Properties.Resources.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\NBA Mascots(KuotM)\NBA Mascots(KuotM)\obj\Debug\NBA Mascots(KuotM).csproj.GenerateResource.Cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\NBA Mascots(KuotM)\NBA Mascots(KuotM)\obj\Debug\NBA Mascots(KuotM).exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\NBA Mascots(KuotM)\NBA Mascots(KuotM)\obj\Debug\NBA Mascots(KuotM).pdb
