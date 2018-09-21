@@ -22,12 +22,15 @@ namespace CalculationsAP_KuotM_
             // Declares the variables
             double length, width,area,perimeter;
             // Convert the string from each textbox to a double
-            length = double.Parse(txtlength.text);
-            width = double.Parse(txtwidth.text);
+            length = double.Parse(txtlength.Text);
+            width = double.Parse(txtwidth.Text);
             // Calcuate the area and the perimeter
             area = length * width;
-            perimeter = 2 * 
+            perimeter = 2 * length + 2 * width;
 
+            // This converts the area and perimeter into their respective labels
+            lblAreaAnswer.Text = Convert.ToString(area) + "cm²";
+            lblPerimeterAnswer.Text = Convert.ToString(perimeter) + "cm";
 
         // This shows the labels when you click
             lblArea.Show();
@@ -42,6 +45,11 @@ namespace CalculationsAP_KuotM_
             lblAreaAnswer.Hide();
             lblPerimeter.Hide();
             lblPerimeterAnswer.Hide();
+        }
+
+        private void mniExit_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

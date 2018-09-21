@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtlength = new System.Windows.Forms.TextBox();
+            this.txtwidth = new System.Windows.Forms.TextBox();
             this.mnu = new System.Windows.Forms.MenuStrip();
             this.mniFile = new System.Windows.Forms.ToolStripMenuItem();
             this.mniExit = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,19 +43,19 @@
             this.mnu.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtlength
             // 
-            this.textBox1.Location = new System.Drawing.Point(131, 72);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtlength.Location = new System.Drawing.Point(131, 72);
+            this.txtlength.Name = "txtlength";
+            this.txtlength.Size = new System.Drawing.Size(100, 20);
+            this.txtlength.TabIndex = 0;
             // 
-            // textBox2
+            // txtwidth
             // 
-            this.textBox2.Location = new System.Drawing.Point(131, 148);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.txtwidth.Location = new System.Drawing.Point(131, 148);
+            this.txtwidth.Name = "txtwidth";
+            this.txtwidth.Size = new System.Drawing.Size(100, 20);
+            this.txtwidth.TabIndex = 1;
             // 
             // mnu
             // 
@@ -77,8 +77,9 @@
             // mniExit
             // 
             this.mniExit.Name = "mniExit";
-            this.mniExit.Size = new System.Drawing.Size(92, 22);
+            this.mniExit.Size = new System.Drawing.Size(152, 22);
             this.mniExit.Text = "Exit";
+            this.mniExit.Click += new System.EventHandler(this.mniExit_Click);
             // 
             // lblLength
             // 
@@ -156,8 +157,8 @@
             this.Controls.Add(this.lblPerimeter);
             this.Controls.Add(this.lblWidth);
             this.Controls.Add(this.lblLength);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtwidth);
+            this.Controls.Add(this.txtlength);
             this.Controls.Add(this.mnu);
             this.MainMenuStrip = this.mnu;
             this.Name = "frmChangingAreaPerim";
@@ -172,8 +173,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtlength;
+        private System.Windows.Forms.TextBox txtwidth;
         private System.Windows.Forms.MenuStrip mnu;
         private System.Windows.Forms.Label lblLength;
         private System.Windows.Forms.Label lblWidth;
