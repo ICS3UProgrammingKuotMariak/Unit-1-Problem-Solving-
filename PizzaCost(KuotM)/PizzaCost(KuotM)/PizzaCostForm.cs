@@ -16,5 +16,10 @@ namespace PizzaCost_KuotM_
         {
             InitializeComponent();
         }
+
+        private void frmPizzaCost_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -124,6 +124,7 @@
             this.MainMenuStrip = this.mnuCircumference;
             this.Name = "frmCircumference";
             this.Text = "Circumference of a Circle";
+            this.Load += new System.EventHandler(this.frmCircumference_Load);
             this.mnuCircumference.ResumeLayout(false);
             this.mnuCircumference.PerformLayout();
             this.ResumeLayout(false);

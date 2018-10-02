@@ -1,0 +1,9 @@
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\Circumference(KuotM)\Circumference(KuotM)\obj\Debug\Circumference(KuotM).csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\Circumference(KuotM)\Circumference(KuotM)\obj\Debug\Circumference_KuotM_.frmCircumference.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\Circumference(KuotM)\Circumference(KuotM)\obj\Debug\Circumference_KuotM_.Properties.Resources.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\Circumference(KuotM)\Circumference(KuotM)\obj\Debug\Circumference(KuotM).csproj.GenerateResource.Cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\Circumference(KuotM)\Circumference(KuotM)\bin\Debug\Circumference(KuotM).exe.config
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\Circumference(KuotM)\Circumference(KuotM)\bin\Debug\Circumference(KuotM).exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\Circumference(KuotM)\Circumference(KuotM)\bin\Debug\Circumference(KuotM).pdb
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\Circumference(KuotM)\Circumference(KuotM)\obj\Debug\Circumference(KuotM).exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\Circumference(KuotM)\Circumference(KuotM)\obj\Debug\Circumference(KuotM).pdb
