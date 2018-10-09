@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Created by: Kuot Mariak
+ * Created on: 19-09-2018
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #10 - Circumference
+ * Circumference
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -44,6 +51,11 @@ namespace Circumference_KuotM_
         {
             lblCircumferenceAnswer.Hide();
             lblStateCircumference.Hide();
+        }
+
+        private void mniExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
