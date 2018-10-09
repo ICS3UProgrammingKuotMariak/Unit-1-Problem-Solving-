@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Created by: Kuot Mariak
+ * Created on: 17-09-2018
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #9 - Moving Cat
+ * Moving Cat KuotM
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
