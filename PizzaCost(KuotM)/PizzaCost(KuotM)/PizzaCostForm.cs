@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Created by: Kuot Mariak
+ * Created on: 27-09-2018
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #12 - PizzaCost
+ * Pizza Cost
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +25,11 @@ namespace PizzaCost_KuotM_
         }
 
         private void frmPizzaCost_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
         {
 
         }
