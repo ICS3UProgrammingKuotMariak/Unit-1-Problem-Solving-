@@ -29,19 +29,21 @@
         private void InitializeComponent()
         {
             this.lblEnterTime = new System.Windows.Forms.Label();
-            this.nudSeconds = new System.Windows.Forms.NumericUpDown();
             this.lblStateHeight = new System.Windows.Forms.Label();
             this.lblHeightAnswer = new System.Windows.Forms.Label();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.mnuFallingObjects = new System.Windows.Forms.MenuStrip();
             this.mniFile = new System.Windows.Forms.ToolStripMenuItem();
             this.mniExit = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.nudSeconds)).BeginInit();
+            this.txtTime = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.mnuFallingObjects.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblEnterTime
             // 
+            this.lblEnterTime.BackColor = System.Drawing.Color.Transparent;
             this.lblEnterTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEnterTime.Location = new System.Drawing.Point(12, 91);
             this.lblEnterTime.Name = "lblEnterTime";
@@ -49,15 +51,9 @@
             this.lblEnterTime.TabIndex = 0;
             this.lblEnterTime.Text = "Enter the time(in seconds) since you released the object";
             // 
-            // nudSeconds
-            // 
-            this.nudSeconds.Location = new System.Drawing.Point(321, 108);
-            this.nudSeconds.Name = "nudSeconds";
-            this.nudSeconds.Size = new System.Drawing.Size(142, 20);
-            this.nudSeconds.TabIndex = 1;
-            // 
             // lblStateHeight
             // 
+            this.lblStateHeight.BackColor = System.Drawing.Color.Transparent;
             this.lblStateHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStateHeight.Location = new System.Drawing.Point(12, 263);
             this.lblStateHeight.Name = "lblStateHeight";
@@ -68,6 +64,7 @@
             // lblHeightAnswer
             // 
             this.lblHeightAnswer.AutoSize = true;
+            this.lblHeightAnswer.BackColor = System.Drawing.Color.Transparent;
             this.lblHeightAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeightAnswer.Location = new System.Drawing.Point(317, 275);
             this.lblHeightAnswer.Name = "lblHeightAnswer";
@@ -107,27 +104,49 @@
             // mniExit
             // 
             this.mniExit.Name = "mniExit";
-            this.mniExit.Size = new System.Drawing.Size(152, 22);
+            this.mniExit.Size = new System.Drawing.Size(92, 22);
             this.mniExit.Text = "Exit";
+            this.mniExit.Click += new System.EventHandler(this.mniExit_Click);
+            // 
+            // txtTime
+            // 
+            this.txtTime.Location = new System.Drawing.Point(321, 112);
+            this.txtTime.Name = "txtTime";
+            this.txtTime.Size = new System.Drawing.Size(139, 20);
+            this.txtTime.TabIndex = 6;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.Image = global::FallingObjects_KuotM_.Properties.Resources.animate_weight_all_falling_cleanup;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 27);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(475, 308);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
             // 
             // frmFallingObjects
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(475, 333);
+            this.Controls.Add(this.txtTime);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.lblHeightAnswer);
             this.Controls.Add(this.lblStateHeight);
-            this.Controls.Add(this.nudSeconds);
             this.Controls.Add(this.lblEnterTime);
             this.Controls.Add(this.mnuFallingObjects);
+            this.Controls.Add(this.pictureBox1);
             this.MainMenuStrip = this.mnuFallingObjects;
             this.Name = "frmFallingObjects";
             this.Text = "Falling Objects";
             this.Load += new System.EventHandler(this.frmFallingObjects_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.nudSeconds)).EndInit();
             this.mnuFallingObjects.ResumeLayout(false);
             this.mnuFallingObjects.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,13 +155,14 @@
         #endregion
 
         private System.Windows.Forms.Label lblEnterTime;
-        private System.Windows.Forms.NumericUpDown nudSeconds;
         private System.Windows.Forms.Label lblStateHeight;
         private System.Windows.Forms.Label lblHeightAnswer;
         private System.Windows.Forms.Button btnCalculate;
         private System.Windows.Forms.MenuStrip mnuFallingObjects;
         private System.Windows.Forms.ToolStripMenuItem mniFile;
         private System.Windows.Forms.ToolStripMenuItem mniExit;
+        private System.Windows.Forms.TextBox txtTime;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

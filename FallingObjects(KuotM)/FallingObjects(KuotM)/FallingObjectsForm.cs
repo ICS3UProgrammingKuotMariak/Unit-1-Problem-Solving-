@@ -16,18 +16,40 @@ namespace FallingObjects_KuotM_
         {
             InitializeComponent();
         }
+        // This declares the variables
+        double time, height;
+       
 
         private void frmFallingObjects_Load(object sender, EventArgs e)
         {
             // This hides the labels
             lblStateHeight.Hide();
             lblHeightAnswer.Hide();
+
+        }
+
+        private void mniExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            // This declares the variables
-            double time, 
+            // This converts the string from the txt to a double
+            time = double.Parse(txtTime.Text);
+
+            // Calculate the height the object is above the ground
+            height = 100 - 0.5 * 9.81 * Math.Pow(time,2);
+
+            // This rounds the answer to two decimal places
+            height = Math.Round(height, 2);
+
+            // This shows the labels when clicked
+            lblStateHeight.Show();
+            lblHeightAnswer.Show();
+
+            // This converts the height to a label
+            lblHeightAnswer.Text = Convert.ToString(height);
         }
     }
 }
