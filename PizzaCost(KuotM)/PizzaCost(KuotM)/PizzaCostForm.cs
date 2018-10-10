@@ -26,11 +26,29 @@ namespace PizzaCost_KuotM_
 
         private void frmPizzaCost_Load(object sender, EventArgs e)
         {
+            // This declares the variables
+            double diameter, tax, subtotal, total
 
+            lblSubtotal.Hide();
+            lblSubtotalAnswer.Hide();
+            lblTax.Hide();
+            lblTaxAnswer.Hide();
+            lblTotal.Hide();
+            lblTotalAnswer.Hide();
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+
+            // Calculates Subtotal
+            nudDiameter.number 
+
+
+
+
+
+
+
 
         }
     }

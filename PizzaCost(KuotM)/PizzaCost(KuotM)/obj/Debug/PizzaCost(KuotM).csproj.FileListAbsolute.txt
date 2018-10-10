@@ -1,0 +1,10 @@
+C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost(KuotM).csprojAssemblyReference.cache
+C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost_KuotM_.frmPizzaCost.resources
+C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost_KuotM_.Properties.Resources.resources
+C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost(KuotM).csproj.GenerateResource.cache
+C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost(KuotM).csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\bin\Debug\PizzaCost(KuotM).exe.config
+C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\bin\Debug\PizzaCost(KuotM).exe
+C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\bin\Debug\PizzaCost(KuotM).pdb
+C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost(KuotM).exe
+C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost(KuotM).pdb
