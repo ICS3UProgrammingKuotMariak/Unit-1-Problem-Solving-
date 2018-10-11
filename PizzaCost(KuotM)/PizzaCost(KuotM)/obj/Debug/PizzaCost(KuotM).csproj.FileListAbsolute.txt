@@ -8,3 +8,12 @@ C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCos
 C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\bin\Debug\PizzaCost(KuotM).pdb
 C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost(KuotM).exe
 C:\Users\Home\Documents\GitHub\Unit-1-Problem-Solving-\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost(KuotM).pdb
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost(KuotM).csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost_KuotM_.frmPizzaCost.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost_KuotM_.Properties.Resources.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost(KuotM).csproj.GenerateResource.Cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost(KuotM).exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\PizzaCost(KuotM)\PizzaCost(KuotM)\obj\Debug\PizzaCost(KuotM).pdb
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\PizzaCost(KuotM)\PizzaCost(KuotM)\bin\Debug\PizzaCost(KuotM).exe.config
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\PizzaCost(KuotM)\PizzaCost(KuotM)\bin\Debug\PizzaCost(KuotM).exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mariak, Kuot (s295215)\Unit 1 (Problem Solving)\PizzaCost(KuotM)\PizzaCost(KuotM)\bin\Debug\PizzaCost(KuotM).pdb
