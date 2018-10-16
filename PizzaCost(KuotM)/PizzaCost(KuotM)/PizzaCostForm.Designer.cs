@@ -42,9 +42,11 @@
             this.lblEnterPizzaAmount = new System.Windows.Forms.Label();
             this.nudDiameter = new System.Windows.Forms.NumericUpDown();
             this.nudPizzas = new System.Windows.Forms.NumericUpDown();
+            this.picPizza = new System.Windows.Forms.PictureBox();
             this.mnuPizzaCost.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDiameter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPizzas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPizza)).BeginInit();
             this.SuspendLayout();
             // 
             // lblEnterDiameter
@@ -63,7 +65,7 @@
             this.mniFile});
             this.mnuPizzaCost.Location = new System.Drawing.Point(0, 0);
             this.mnuPizzaCost.Name = "mnuPizzaCost";
-            this.mnuPizzaCost.Size = new System.Drawing.Size(541, 24);
+            this.mnuPizzaCost.Size = new System.Drawing.Size(561, 24);
             this.mnuPizzaCost.TabIndex = 1;
             this.mnuPizzaCost.Text = "menuStrip1";
             // 
@@ -80,10 +82,11 @@
             this.mniExit.Name = "mniExit";
             this.mniExit.Size = new System.Drawing.Size(92, 22);
             this.mniExit.Text = "Exit";
+            this.mniExit.Click += new System.EventHandler(this.mniExit_Click);
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(258, 182);
+            this.btnCalculate.Location = new System.Drawing.Point(352, 258);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(142, 54);
             this.btnCalculate.TabIndex = 2;
@@ -94,54 +97,60 @@
             // lblSubtotal
             // 
             this.lblSubtotal.AutoSize = true;
-            this.lblSubtotal.Location = new System.Drawing.Point(234, 264);
+            this.lblSubtotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubtotal.Location = new System.Drawing.Point(295, 389);
             this.lblSubtotal.Name = "lblSubtotal";
-            this.lblSubtotal.Size = new System.Drawing.Size(49, 13);
+            this.lblSubtotal.Size = new System.Drawing.Size(73, 20);
             this.lblSubtotal.TabIndex = 3;
             this.lblSubtotal.Text = "Subtotal:";
             // 
             // lblSubtotalAnswer
             // 
             this.lblSubtotalAnswer.AutoSize = true;
-            this.lblSubtotalAnswer.Location = new System.Drawing.Point(366, 264);
+            this.lblSubtotalAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubtotalAnswer.Location = new System.Drawing.Point(427, 389);
             this.lblSubtotalAnswer.Name = "lblSubtotalAnswer";
-            this.lblSubtotalAnswer.Size = new System.Drawing.Size(81, 13);
+            this.lblSubtotalAnswer.Size = new System.Drawing.Size(122, 20);
             this.lblSubtotalAnswer.TabIndex = 4;
             this.lblSubtotalAnswer.Text = "SubtotalAnswer";
             // 
             // lblTax
             // 
             this.lblTax.AutoSize = true;
-            this.lblTax.Location = new System.Drawing.Point(255, 287);
+            this.lblTax.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTax.Location = new System.Drawing.Point(316, 412);
             this.lblTax.Name = "lblTax";
-            this.lblTax.Size = new System.Drawing.Size(28, 13);
+            this.lblTax.Size = new System.Drawing.Size(38, 20);
             this.lblTax.TabIndex = 5;
             this.lblTax.Text = "Tax:";
             // 
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(249, 309);
+            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(310, 434);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(34, 13);
+            this.lblTotal.Size = new System.Drawing.Size(48, 20);
             this.lblTotal.TabIndex = 6;
             this.lblTotal.Text = "Total:";
             // 
             // lblTaxAnswer
             // 
             this.lblTaxAnswer.AutoSize = true;
-            this.lblTaxAnswer.Location = new System.Drawing.Point(366, 287);
+            this.lblTaxAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTaxAnswer.Location = new System.Drawing.Point(427, 412);
             this.lblTaxAnswer.Name = "lblTaxAnswer";
-            this.lblTaxAnswer.Size = new System.Drawing.Size(60, 13);
+            this.lblTaxAnswer.Size = new System.Drawing.Size(87, 20);
             this.lblTaxAnswer.TabIndex = 7;
             this.lblTaxAnswer.Text = "TaxAnswer";
             // 
             // lblTotalAnswer
             // 
             this.lblTotalAnswer.AutoSize = true;
-            this.lblTotalAnswer.Location = new System.Drawing.Point(366, 309);
+            this.lblTotalAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalAnswer.Location = new System.Drawing.Point(427, 434);
             this.lblTotalAnswer.Name = "lblTotalAnswer";
-            this.lblTotalAnswer.Size = new System.Drawing.Size(66, 13);
+            this.lblTotalAnswer.Size = new System.Drawing.Size(97, 20);
             this.lblTotalAnswer.TabIndex = 8;
             this.lblTotalAnswer.Text = "TotalAnswer";
             // 
@@ -169,11 +178,24 @@
             this.nudPizzas.Size = new System.Drawing.Size(120, 20);
             this.nudPizzas.TabIndex = 11;
             // 
+            // picPizza
+            // 
+            this.picPizza.BackColor = System.Drawing.SystemColors.Control;
+            this.picPizza.Location = new System.Drawing.Point(12, 210);
+            this.picPizza.Name = "picPizza";
+            this.picPizza.Size = new System.Drawing.Size(223, 238);
+            this.picPizza.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.picPizza.TabIndex = 12;
+            this.picPizza.TabStop = false;
+            // 
             // frmPizzaCost
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(541, 377);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = global::PizzaCost_KuotM_.Properties.Resources.KRUSTYKRAB_586x511;
+            this.ClientSize = new System.Drawing.Size(561, 489);
+            this.Controls.Add(this.picPizza);
             this.Controls.Add(this.nudPizzas);
             this.Controls.Add(this.nudDiameter);
             this.Controls.Add(this.lblEnterPizzaAmount);
@@ -194,6 +216,7 @@
             this.mnuPizzaCost.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudDiameter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPizzas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPizza)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,6 +238,7 @@
         private System.Windows.Forms.Label lblEnterPizzaAmount;
         private System.Windows.Forms.NumericUpDown nudDiameter;
         private System.Windows.Forms.NumericUpDown nudPizzas;
+        private System.Windows.Forms.PictureBox picPizza;
     }
 }
 
