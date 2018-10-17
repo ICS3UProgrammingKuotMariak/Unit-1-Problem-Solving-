@@ -40,6 +40,10 @@ namespace PizzaCost_KuotM_
         {
             // This declares the variables
             double diameter, tax, subtotal, total, pizzas;
+            const int small = 10;
+            const int medium = 14;
+            const int large = 16;
+            const int extralarge = 18;
 
             // This sets the maximun and minimum values
             nudDiameter.Minimum = 10;
@@ -72,21 +76,25 @@ namespace PizzaCost_KuotM_
 
             // Changes image in picture box
             {
-                if (diameter == 10)
+            if (diameter == small)
                 {
                     picPizza.Image = Properties.Resources._10inch_pizza;
                 }
-                else if (diameter == 14)
+                else if (diameter == medium)
                 {
                     picPizza.Image = Properties.Resources._14inch_pizza;
                 }
-                else if (diameter == 16)
+                else if (diameter == large)
                 {
                     picPizza.Image = Properties.Resources._16inch_pizza;
                 }
-                else if (diameter == 18)
+                else if (diameter == extralarge)
                 {
                     picPizza.Image = Properties.Resources._18inch_pizza;
+                }
+            else
+                {
+                    picPizza.Image = null;
                 }
             }
 
